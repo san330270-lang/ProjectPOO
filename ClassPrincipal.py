@@ -4,10 +4,10 @@ from motor import Motor
 
 if __name__ == "__main__":
     # Instanciar motores para vehículos
-    motor_coche1 = Motor("Gasolina", 120)
-    motor_coche2 = Motor("Diesel", 150)
-    motor_bike1 = Motor("Gasolina", 80)
-    motor_bike2 = Motor("Eléctrico", 60)
+    motor_coche1 = Motor("Gasolina", 340)
+    motor_coche2 = Motor("Diesel", 260)
+    motor_bike1 = Motor("Gasolina", 75)
+    motor_bike2 = Motor("Eléctrico", 90)
 
     # Instanciar automóviles
     coche1 = Automovil("Ram", "Corolla", 2022, 5)
